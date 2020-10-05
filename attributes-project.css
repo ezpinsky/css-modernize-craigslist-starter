@@ -51,7 +51,7 @@ ul > li {
 }
 
 a:hover,
-a > span:hover {	
+a > span:hover {
 	color: #800080;
 	font-weight: bold;
 }
@@ -60,8 +60,8 @@ a > span:hover {
 	max-width: 1200px;
 }
 
-#leftbar, 
-#center, 
+#leftbar,
+#center,
 #rightbar {
 	float: left;
 	padding-left: 30px;
@@ -91,4 +91,22 @@ footer {
 
 #topban h2 {
 	text-align: center;
+}
+
+ul.clfooter {
+	text-align: center;
+	border-top: 1px grey;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+ul.clfooter > li {
+	display: inline;
+	padding-right: 25px;
+}
+
+h4.ban::before {
+	content: "☮️";
 }
